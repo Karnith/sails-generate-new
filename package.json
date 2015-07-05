@@ -25,9 +25,9 @@
   "devDependencies": {
     "sails-generate": "Karnith/sails-generate",
     "reportback": "*",
-    "sails-generate-backend-gulp": "*",
-    "sails-generate-frontend-gulp": "*",
-    "sails-generate-gulpfile": "*"
+    "sails-generate-backend-gulp": "Karnith/sails-generate-backend-gulp",
+    "sails-generate-frontend-gulp": "Karnith/sails-generate-frontend-gulp",
+    "sails-generate-gulpfile": "Karnith/sails-generate-gulpfile"
   },
   "repository": {
     "type": "git",
