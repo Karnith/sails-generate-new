@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-new-gulp",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "Generate a new Sails app using gulp instead of grunt.",
   "main": "lib/index.js",
   "scripts": {
@@ -17,17 +17,17 @@
   "author": "karnith",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "^0.10.0",
-    "lodash": ">=2.4.x",
-    "merge-defaults": ">=0.1.0",
-    "async": "~0.2.9"
+    "fs-extra": "*",
+    "lodash": "*",
+    "merge-defaults": "*",
+    "async": "*"
   },
   "devDependencies": {
-    "sails-generate": "*",
+    "sails-generate": "Karnith/sails-generate",
     "reportback": "*",
-    "sails-generate-backend": "~0.10.1",
-    "sails-generate-frontend-gulp": "git://github.com/Karnith/sails-generate-frontend-gulp.git",
-    "sails-generate-gulpfile": "git://github.com/Karnith/sails-generate-gulpfile.git"
+    "sails-generate-backend-gulp": "Karnith/sails-generate-backend-gulp",
+    "sails-generate-frontend-gulp": "Karnith/sails-generate-frontend-gulp",
+    "sails-generate-gulpfile": "Karnith/sails-generate-gulpfile"
   },
   "repository": {
     "type": "git",
@@ -39,6 +39,6 @@
   "sailsGenerator": {
     "type": "new",
     "behavior": "default implementation of `sails new`",
-    "sailsVersion": "~0.10.0"
+    "sailsVersion": "~0.11.0"
   }
 }
