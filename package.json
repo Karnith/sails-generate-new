@@ -23,11 +23,11 @@
     "async": "*"
   },
   "devDependencies": {
-    "sails-generate": "*",
+    "sails-generate": "Karnith/sails-generate",
     "reportback": "*",
-    "sails-generate-backend": "*",
-    "sails-generate-frontend-gulp": "git://github.com/Karnith/sails-generate-frontend-gulp.git",
-    "sails-generate-gulpfile": "git://github.com/Karnith/sails-generate-gulpfile.git"
+    "sails-generate-backend-gulp": "*",
+    "sails-generate-frontend-gulp": "*",
+    "sails-generate-gulpfile": "*"
   },
   "repository": {
     "type": "git",
