@@ -5,8 +5,6 @@
 var _ = require('lodash');
 var util = require('util');
 
-
-
 /**
  *
  * @param  {[type]} scope [description]
@@ -24,20 +22,32 @@ module.exports = function dataForPackageJSON(scope) {
   // List default dependencies used for apps with a front-end
   var dependenciesFrontAndBackend = {
     'ejs': getDependencyVersion(sailsPkg, 'ejs'),
-    'grunt': getDependencyVersion(sailsPkg, 'grunt'),
-    'grunt-contrib-clean': getDependencyVersion(sailsPkg, 'grunt-contrib-clean'),
-    'grunt-contrib-coffee': getDependencyVersion(sailsPkg, 'grunt-contrib-coffee'),
-    'grunt-contrib-concat': getDependencyVersion(sailsPkg, 'grunt-contrib-concat'),
-    'grunt-contrib-copy': getDependencyVersion(sailsPkg, 'grunt-contrib-copy'),
-    'grunt-contrib-cssmin': getDependencyVersion(sailsPkg, 'grunt-contrib-cssmin'),
-    'grunt-contrib-jst': getDependencyVersion(sailsPkg, 'grunt-contrib-jst'),
-    'grunt-contrib-less': getDependencyVersion(sailsPkg, 'grunt-contrib-less'),
-    'grunt-contrib-uglify': getDependencyVersion(sailsPkg, 'grunt-contrib-uglify'),
-    'grunt-contrib-watch': getDependencyVersion(sailsPkg, 'grunt-contrib-watch'),
-    'grunt-sails-linker': getDependencyVersion(sailsPkg, 'grunt-sails-linker'),
-    'grunt-sync': getDependencyVersion(sailsPkg, 'grunt-sync'),
+    'gulp': getDependencyVersion(sailsPkg, 'gulp'),
+    'gulp-autoprefixer': getDependencyVersion(sailsPkg, 'gulp-autoprefixer'),
+    'gulp-cache': getDependencyVersion(sailsPkg, 'gulp-cache'),
+    'gulp-changed': getDependencyVersion(sailsPkg, 'gulp-changed'),
+    'gulp-coffee': getDependencyVersion(sailsPkg, 'gulp-coffee'),
+    'gulp-concat': getDependencyVersion(sailsPkg, 'gulp-concat'),
+    'gulp-if': getDependencyVersion(sailsPkg, 'gulp-if'),
+    'gulp-imagemin': getDependencyVersion(sailsPkg, 'gulp-imagemin'),
+    'gulp-jade': getDependencyVersion(sailsPkg, 'gulp-jade'),
+    'gulp-jshint': getDependencyVersion(sailsPkg, 'gulp-jshint'),
+    'gulp-less': getDependencyVersion(sailsPkg, 'gulp-less'),
+    'gulp-linker': getDependencyVersion(sailsPkg, 'gulp-linker'),
+    'gulp-livereload': getDependencyVersion(sailsPkg, 'gulp-livereload'),
+    'gulp-load-plugins': getDependencyVersion(sailsPkg, 'gulp-load-plugins'),
+    'gulp-minify-css': getDependencyVersion(sailsPkg, 'gulp-minify-css'),
+    'gulp-notify': getDependencyVersion(sailsPkg, 'gulp-notify'),
+    'gulp-rename': getDependencyVersion(sailsPkg, 'gulp-rename'),
+    'gulp-rimraf': getDependencyVersion(sailsPkg, 'gulp-rimraf'),
+    'gulp-sass': getDependencyVersion(sailsPkg, 'gulp-sass'),
+    'gulp-template-compile': getDependencyVersion(sailsPkg, 'gulp-template-compile'),
+    'gulp-uglify': getDependencyVersion(sailsPkg, 'gulp-uglify'),
+    'gulp-util': getDependencyVersion(sailsPkg, 'gulp-util'),
     'include-all': getDependencyVersion(sailsPkg, 'include-all'),
     'rc': getDependencyVersion(sailsPkg, 'rc'),
+    'rimraf': getDependencyVersion(sailsPkg, 'rimraf'),
+    'run-sequence': getDependencyVersion(sailsPkg, 'run-sequence'),
     'sails': sailsVersionDependency,
     'sails-disk': getDependencyVersion(sailsPkg, 'sails-disk')
   };

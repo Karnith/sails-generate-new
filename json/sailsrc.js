@@ -6,9 +6,15 @@
  */
 module.exports = function(scope) {
 
-  var package = {};
-  package.generators = {};
-  package.generators.modules = {};
+	var package = {};
+  package.hooks = {
+      "grunt": false
+  };
+	package.generators = {};
+	package.generators.modules = {
+        "bower": "sails-generate-bower-gulp",
+        "angular": "sails-generate-angular-gws"
+    };
 
   //
   // if scope has exceptional config, include it in the rc file:
@@ -22,7 +28,7 @@ module.exports = function(scope) {
 
   if (scope['front-end'] === false) {
     package.hooks = {};
-    package.hooks.grunt = false;
+    package.hooks.gulp = false;
   }
 
   return package;
