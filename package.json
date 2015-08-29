@@ -17,10 +17,10 @@
   "author": "karnith",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "*",
     "lodash": "*",
     "merge-defaults": "*",
-    "async": "*"
+    "async": "*",
+    "fs-extra": "*"
   },
   "devDependencies": {
     "sails-generate": "Karnith/sails-generate",
