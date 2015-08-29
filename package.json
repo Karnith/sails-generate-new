@@ -17,10 +17,10 @@
   "author": "karnith",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "*",
-    "lodash": "*",
-    "merge-defaults": "*",
-    "async": "*"
+    "lodash": ">=3.9.x",
+    "merge-defaults": ">=0.2.x",
+    "async": ">=1.2.x",
+    "fs-extra": "*"
   },
   "devDependencies": {
     "sails-generate": "Karnith/sails-generate",
@@ -29,16 +29,16 @@
     "sails-generate-frontend-gulp": "Karnith/sails-generate-frontend-gulp",
     "sails-generate-gulpfile": "Karnith/sails-generate-gulpfile"
   },
+  "sailsGenerator": {
+    "type": "new",
+    "behavior": "default implementation of `sails new`",
+    "sailsVersion": "~0.11.0"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/Karnith/sails-generate-new-gulp"
   },
   "bugs": {
     "url": "https://github.com/Karnith/sails-generate-new-gulp/issues"
-  },
-  "sailsGenerator": {
-    "type": "new",
-    "behavior": "default implementation of `sails new`",
-    "sailsVersion": "~0.11.0"
   }
 }
