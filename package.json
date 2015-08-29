@@ -17,17 +17,17 @@
   "author": "karnith",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "*",
     "lodash": "*",
     "merge-defaults": "*",
-    "async": "*"
+    "async": "*",
+    "fs-extra": "*"
   },
   "devDependencies": {
-    "sails-generate": "*",
+    "sails-generate": "Karnith/sails-generate",
     "reportback": "*",
-    "sails-generate-backend": "*",
-    "sails-generate-frontend-gulp": "git://github.com/Karnith/sails-generate-frontend-gulp.git",
-    "sails-generate-gulpfile": "git://github.com/Karnith/sails-generate-gulpfile.git"
+    "sails-generate-backend-gulp": "Karnith/sails-generate-backend-gulp",
+    "sails-generate-frontend-gulp": "Karnith/sails-generate-frontend-gulp",
+    "sails-generate-gulpfile": "Karnith/sails-generate-gulpfile"
   },
   "repository": {
     "type": "git",
